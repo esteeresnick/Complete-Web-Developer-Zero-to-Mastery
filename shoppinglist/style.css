@@ -1,0 +1,103 @@
+.coolTitle {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 40px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: tomato;
+    text-shadow:
+        -1px -1px 0 firebrick,
+        -2px -2px 0 firebrick,
+        -3px -3px 0 firebrick,
+        -4px -4px 0 firebrick,
+        -5px -5px 0 firebrick,
+        -6px -6px 0 firebrick,
+        -7px -7px 0 firebrick,
+        -8px -8px 0 firebrick,
+        -30px 20px 40px dimgrey;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: darkslategray;
+}
+
+hr {
+    width: 65%;
+    border: 1px solid pink;
+}
+
+h5 {
+    color: grey;
+    text-transform: uppercase;
+}
+
+input#itemInput {
+    padding: .4em .6em;
+    border: none;
+    margin-right: 20px;
+}
+
+input#itemInput:focus-visible {
+    outline: 2px solid pink;
+}
+
+input#itemInput::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: darkslategray;
+    opacity: 1;
+    /* Firefox */
+}
+
+input#itemInput:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: darkslategray;
+}
+
+input#itemInput::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: darkslategray;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    font-weight: bold;
+    padding: .4em .6em;
+    border-radius: 15%;
+    border: none;
+}
+
+ul {
+    margin: 20px auto;
+    width: 330px;
+    /* border: 1px solid grey; */
+}
+
+li {
+    text-align-last: left;
+}
+
+span {
+    color: darkslategrey;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+button.removeItem {
+    display: inline-block;
+    margin-right: .7em;
+}
+
+#shoppingList li {
+    list-style: none;
+    padding: .4em 0;
+}
